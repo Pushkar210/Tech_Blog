@@ -17,11 +17,9 @@ cd Tech_Blog
 if [ -d "env" ] 
 then
     echo "Python virtual environment exists." 
-    source newenv/bin/activate
 else
     echo "Creating Python Virtual Environment"
     sudo python3 -m venv env
-    source newenv/bin/activate
     echo "Python Virtual Environment Created!"
 fi
 
