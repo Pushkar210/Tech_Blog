@@ -6,6 +6,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt install python-is-python3 -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get install python3-pip -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get install python3.10-venv -y
+python3 -m venv venv source venv/bin/activate
 #sudo DEBIAN_FRONTEND=noninteractive apt-get install gunicorn -y
 #sudo DEBIAN_FRONTEND=noninteractive apt-get install nginx -y
 
@@ -29,6 +30,9 @@ echo "Virtual env activated"
 
 echo "Installing Project Requirements"
 pip3 install -r requirements.txt
+
+python manage.py migrate
+python manage.py runserver
 
 if [ -d "logs" ] 
 then
