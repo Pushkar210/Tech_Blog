@@ -9,7 +9,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install python3.10-venv -y
 #sudo DEBIAN_FRONTEND=noninteractive apt-get install gunicorn -y
 #sudo DEBIAN_FRONTEND=noninteractive apt-get install nginx -y
 
-git clone https://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@github.com/NikhilMondhe1234/Devops.git
+git clone https://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@github.com/Pushkar210/Tech_Blog.git
 
 cd Devops
 git checkout change/prop
