@@ -31,8 +31,7 @@ echo "Virtual env activated"
 echo "Installing Project Requirements"
 pip3 install -r requirements.txt
 
-python manage.py migrate
-python manage.py runserver
+
 
 if [ -d "logs" ] 
 then
