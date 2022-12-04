@@ -11,8 +11,8 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install python3.10-venv -y
 
 git clone https://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@github.com/Pushkar210/Tech_Blog.git
 
-cd Devops
-git checkout change/prop
+cd Tech_Blog
+
 
 if [ -d "env" ] 
 then
