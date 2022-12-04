@@ -5,8 +5,8 @@ After=network.target
 [Service]
 User=ubuntu
 Group=www-data
-WorkingDirectory=/home/ubuntu/Devops
-ExecStart=python /home/ubuntu/Devops/manage.py runserver 0.0.0.0:5000
+WorkingDirectory=/home/ubuntu/Tech_Blog
+ExecStart=python /home/ubuntu/Tech_Blog/manage.py runserver 0.0.0.0:5000
 
 [Install]
 WantedBy=multi-user.target

@@ -13,8 +13,8 @@ python3 manage.py collectstatic --no-input
 echo "Migrations done"
 echo "Starting Gunicorn Service..."
 
-sudo cp -rf /home/ubuntu/exec_scripts/gunicorn.socket /etc/systemd/system/
-sudo cp -rf /home/ubuntu/exec_scripts/gunicorn.service /etc/systemd/system/
+sudo cp -rf /home/ubuntu/exec/gunicorn.socket /etc/systemd/system/
+sudo cp -rf /home/ubuntu/exec/gunicorn.service /etc/systemd/system/
 
 echo "$USER"
 echo "$PWD"
