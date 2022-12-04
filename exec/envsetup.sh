@@ -6,6 +6,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt install python-is-python3 -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get install python3-pip -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get install python3.10-venv -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get python -m pip install Django
 #sudo DEBIAN_FRONTEND=noninteractive apt-get install gunicorn -y
 #sudo DEBIAN_FRONTEND=noninteractive apt-get install nginx -y
 
