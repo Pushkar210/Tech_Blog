@@ -78,7 +78,7 @@ resource "aws_security_group" "Group02-DevSecOps1" {
 resource "aws_instance" "app_server" {
   ami                    = "ami-096800910c1b781ba"
   instance_type          = "t2.large"
-  key_name               = "x21177279"
+  key_name               = "x279"
   vpc_security_group_ids = ["${aws_security_group.Group02-DevSecOps1.id}"]
   # user_data              = file("temp.sh")
   connection {
