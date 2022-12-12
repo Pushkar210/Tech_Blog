@@ -15,18 +15,18 @@ git clone https://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@github.com/Pushkar210
 cd Tech_Blog
 
 
-if [ -d "env" ] 
-then
-    echo "Python virtual environment exists." 
-else
-    echo "Creating Python Virtual Environment"
-    sudo python3 -m venv env
-    echo "Python Virtual Environment Created!"
-fi
+# if [ -d "env" ] 
+# then
+#     echo "Python virtual environment exists." 
+# else
+#     echo "Creating Python Virtual Environment"
+#     sudo python3 -m venv env
+#     echo "Python Virtual Environment Created!"
+# fi
 
-sudo chmod -R 777 env
-source env/bin/activate
-echo "Virtual env activated"
+# #sudo chmod -R 777 env
+# source env/bin/activate
+# echo "Virtual env activated"
 
 echo "Installing Project Requirements"
 pip3 install -r requirements.txt
