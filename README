@@ -1,0 +1,15 @@
+Python3 must be pre-installed on the system before the program can be started. The following commands should be executed once Python has been installed:
+
+python3 -m venv venv source venv/bin/activate is the command you need to run.
+
+Go to the src directory, and then execute the following commands:
+
+pip3 install -R requirements.txt
+
+After all of the prerequisites have been installed, proceed as follows.
+
+python .\manage.py migrate
+
+runserver with the command python.manage.py
+
+If you want to deploy to the environment, push your changes to the development for production, push your changes to the master branch.
